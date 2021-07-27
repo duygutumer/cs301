@@ -1,7 +1,0 @@
-Method 5(Use Order Statistics) 
-1) Use order statistic algorithm to find the kth largest element. Please see the topic selection in worst-case linear time O(n) 
-2) Use QuickSort Partition algorithm to partition around the kth largest number O(n). 
-3) Sort the k-1 elements (elements greater than the kth largest element) O(kLogk). This step is needed only if sorted output is required.
-
-Time complexity: O(n) if we don’t need the sorted output, otherwise O(n+kLogk)
-Thanks to Shilpi for suggesting the first two approaches.
